@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Adiciona efeito hover ao menu
     const navLinks = document.querySelectorAll("nav a");
     navLinks.forEach(link => {
       link.addEventListener("mouseover", () => {
@@ -11,8 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
         link.style.textDecoration = "none";
       });
     });
-  
-    // Alterna o tema do site (claro/escuro)
     const toggleThemeBtn = document.createElement("button");
     toggleThemeBtn.textContent = "Alternar Tema";
     toggleThemeBtn.style.position = "fixed";
