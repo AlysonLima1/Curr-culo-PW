@@ -5,6 +5,17 @@ body {
     background-color: #f4f4f4;
     color: #333;
   }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+  }
+  
+  main {
+    flex: 1; 
+  }
+  
   
   header {
     text-align: center;
@@ -44,10 +55,10 @@ body {
     padding: 10px;
     background-color: #0073e6;
     color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: auto; 
+    position: relative; 
   }
+  
   /* Tema Escuro */
 body.dark-theme {
     background-color: #1e1e1e;
